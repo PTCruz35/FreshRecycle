@@ -150,7 +150,8 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\RequestsController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\ServicesController.cs" />
     <Compile Include="DataModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -169,6 +170,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\LoginDetail.cs" />
+    <Compile Include="Models\UserDetails.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Request.cs">
       <DependentUpon>DataModel.tt</DependentUpon>
@@ -179,6 +182,14 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\green\bootstrap.min.css" />
+    <Content Include="css\animate.min.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\carousel.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\isotope\style.css" />
+    <Content Include="css\responsive.css" />
+    <Content Include="css\style.css" />
     <Content Include="DataModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>DataModel.Context.cs</LastGenOutput>
@@ -194,6 +205,29 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="img\air_pollutuon.jpg" />
+    <Content Include="img\audiojungle.png" />
+    <Content Include="img\cliemate.jpg" />
+    <Content Include="img\climate_effect.jpg" />
+    <Content Include="img\cloud.png" />
+    <Content Include="img\codecanyon.png" />
+    <Content Include="img\environment.jpg" />
+    <Content Include="img\graphicriver.png" />
+    <Content Include="img\hand.png" />
+    <Content Include="img\img1.jpg" />
+    <Content Include="img\img2.jpg" />
+    <Content Include="img\img3.jpg" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\photography.jpg" />
+    <Content Include="img\portfolio_1.jpg" />
+    <Content Include="img\species.jpg" />
+    <Content Include="img\threat_bear.jpg" />
+    <Content Include="img\tree.png" />
+    <Content Include="img\tree_cut_1.jpg" />
+    <Content Include="img\tree_cut_2.jpg" />
+    <Content Include="img\tree_cut_3.jpg" />
+    <Content Include="img\tree_cut_4.jpg" />
+    <Content Include="img\tuhnder.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -237,10 +271,14 @@
     <Content Include="Views\Requests\Details.cshtml" />
     <Content Include="Views\Requests\Edit.cshtml" />
     <Content Include="Views\Requests\Index.cshtml" />
+    <Content Include="Views\Services\Index.cshtml" />
+    <Content Include="Views\Login\NewUser.cshtml" />
+    <Content Include="Views\Login\login.cshtml" />
+    <Content Include="Views\Login\CreateOrUpdate.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
+    <Folder Include="Scripts\js_green\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

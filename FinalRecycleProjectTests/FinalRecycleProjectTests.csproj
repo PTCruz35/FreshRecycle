@@ -84,7 +84,6 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
-    <Compile Include="Controllers\RequestsControllerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -96,6 +95,9 @@
       <Project>{35EC24C6-4C73-45B6-83A0-EC090E22F806}</Project>
       <Name>FinalRecycleProject</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

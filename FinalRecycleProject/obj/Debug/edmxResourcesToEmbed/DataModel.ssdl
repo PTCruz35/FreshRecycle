@@ -1,18 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="DataModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-  <EntityContainer Name="DataModelStoreContainer">
-    <EntitySet Name="Requests" EntityType="DataModel.Store.Requests" store:Type="Tables" Schema="dbo" />
-  </EntityContainer>
-  <EntityType Name="Requests">
-    <Key>
-      <PropertyRef Name="RequestNumber" />
-    </Key>
-    <Property Name="FirstName" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="LastName" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="Address" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="PhoneNumber" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="RequestNumber" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="City" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="State" Type="nvarchar(max)" Nullable="false" />
-  </EntityType>
+  <EntityContainer Name="DataModelStoreContainer" />
 </Schema>
